@@ -30,6 +30,13 @@ A project made to practice knowledge with Javascript, HTML and CSS. It is used t
 - Remove users from list
 - Remove ALL users from list
 
+## 🛠 Stack
+
+The following stacks were used in this project
+
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 ## 🦸 Author
 
