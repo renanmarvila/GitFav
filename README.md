@@ -14,7 +14,7 @@
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="gitfav" title="#gitfav" src=".github/assets/GitFav.png" width="100%">
+  <img alt="gitfav" title="#gitfav" src="./assets/GitFav.png" width="100%">
 
 </p>
 
