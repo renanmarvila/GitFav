@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body * {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0. 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+body {
+    background: #000;
+}
+
+#app {
+    margin: 4rem auto;
+    width: 75vw;
+    min-width: 60rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+header, main, .search {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    gap: 1rem;
+}
+
+.search {
+    justify-content: flex-end;
+    gap: 0.8rem;
+}
+
+.search input, .search button {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+
+    width: 35rem;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #06181C;
+}
+
+.search button {
+    width: 17rem;
+    background-color: #065E7C;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.search button:hover {
+    background-color: #FFF;
+    color: #065E7C;
+
+    cursor: pointer;
+}
+.search button:hover > svg path{
+    fill: #065E7C;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse; 
+}
+
+thead {
+    background: #092D38;
+}
+
+thead tr th, tbody tr td {   
+    text-align: center;
+
+    padding: 1.6rem 2.4rem;
+
+    font-weight: 700;
+}
+
+thead tr th:nth-child(1) {
+    border-top-left-radius: 8px;
+
+    text-align: left;
+}
+
+thead tr th:last-child {
+    border-top-right-radius: 8px;
+}
+
+tbody tr td:first-child {
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #06161B80;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #06181C;
+} 
+
+tbody tr:last-child .user {
+    border-bottom-left-radius: 8px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.user a {
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2.7rem;
+}
+
+.user a span {
+    font-weight: 400;
+}
+
+tbody td img {
+    width: 5.6rem;
+    border-radius: 50%;
+}
+
+.action button {
+    background-color: transparent;
+    border: none;
+
+    color: #ff9f31;
+
+    cursor: pointer;
+}
+
+.action button:hover {
+    color: #ff9f31;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.initial {
+    width: 100%;
+    height: 40rem;
+
+    border-radius: 0 0 8px 8px;
+    background-color: #030B0D;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+
+    font-size: 4rem;
+    line-height: 2.5rem;
+    color: #4E5455;
+    font-family: 'Roboto Mono';
+    font-weight: 700;;
+}
+
+.hide {
+    display: none;
+}
+
+#remove {
+    background-color: #ff9f31;
+}
+
+#remove:hover {
+    background-color: #fff;
+}
+
+#remove svg {
+    height: 2.5rem;
+    width: 2.5rem;
+}
