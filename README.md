@@ -47,10 +47,6 @@ Renan Marvila
 
 ---
 
-## 📝 License
-
-This project is under the license [MIT](./LICENSE).
-
 Made by Renan Marvila 👋🏽 [Get in Touch!](Https://www.linkedin.com/in/renanmarvila/)
 
 ---
